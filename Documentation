@@ -1,0 +1,31 @@
+Collections documentation
+
+1. append() Method :
+This method appends (inserts at the end) an element (a Python object) to the Python list. To check this, we need to create a list and check how this method works.
+
+2. count() Method :
+This method counts the number of occurrences of an element in the list which the method is called on. So, myList.count('truu') 
+will count how many times the string truu has occurred
+in the list object myList.
+
+4. index() Method :
+This method is similar to the string index() method. It accepts an element as an argument and returns the index of the first occurrence 
+of the element in the list, if it is present in the list, otherwise it will give out an error.
+
+5. insert() Method :
+The append() method will always add an element to the last position of the list, whereas insert() method accepts an extra argument denoting the
+'offset' at which the element has to be inserted.
+
+6. pop() Method :
+This method when used without any argument, returns the last element in the list. It does accept an optional argument with which we can specify the
+offset of the list element to be returned. When the element is returned, it is also removed from the list.
+
+8. reverse() Method :
+This method when called on a list object, it reverses it in place, without returning anything. It means that, the contents of the original list are reversed
+and list is modified. In this context, let me also mention the built-in list reverse iterator object reversed, that returns a reversed list object, with the original list 
+not getting modified.
+
+
+9. sort() Method :
+This method when called on a list object, orders the list elements in ascending order by default, original list is modified in-place. This method can take arguments so as
+to change the behavior of the default sorting process.
